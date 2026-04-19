@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.productCard{
+    padding: 20px;
+    border:3px solid pink;
+    border-radius: 20%;
+    margin:20px;
+    color:rgb(43, 115, 178);
+    background-color: pink;
+}
+.productImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-bottom: 5px;
+}
+.available{
+    color:green;
+}
+.outOfStock{
+    color:red;
+}
+.Expensive{
+    color:brown;
+    font-size:10px;
+}
+.BudgetFriendly{
+    color:chocolate;
+    font-size: 10px;
+}
