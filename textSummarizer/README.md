@@ -17,6 +17,9 @@ AI-powered text summarizer built with React.js using OpenRouter API.
 - jsPDF
 - OpenRouter API
 
+## Author Name
+~Noor Fatima
+
 ## Installation
 
 ```bash
@@ -25,3 +28,4 @@ npm run dev
 
 ## Environment Variable
 - VITE_OPENROUTER_KEY=your_api_key
+
