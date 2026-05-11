@@ -19,6 +19,8 @@ AI-powered text summarizer built with React.js using OpenRouter API.
 
 ## Installation
 
+~Noor Fatima
+
 ```bash
 npm install
 npm run dev
