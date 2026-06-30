@@ -158,3 +158,26 @@ Related data (form fields) → ek object state
 Unrelated data (counter, modal open, user name) → alag alag states
 
 Rule: Jo saath update hota hai woh saath rakho, jo independently update hota hai alag rakho.
+
+const [profile, setProfile] = useState({
+  naam: "Ali",
+  address: {
+    shehr: "Lahore",
+    country: "Pakistan"
+  }
+})
+
+
+# nested object 
+nested obj m hr level p spread krna hota h
+// ❌ Galat — andar wala object mutate ho gaya
+setProfile({ ...profile, address.shehr: "Karachi" })
+
+// ✅ Sahi — nested object bhi spread karo
+setProfile({
+  ...profile,              // baaki sab copy
+  address: {
+    ...profile.address,    // address ka baaki sab copy
+    shehr: "Karachi"       // sirf yeh badlo
+  }
+})
