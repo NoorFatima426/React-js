@@ -1,6 +1,9 @@
 import Anchor from './Anchor'
 import Form from './Form'
 import Input from './Input'
+import Todo from './Todo'
+import List from './List'
+import Card from './Card'
 function App() {
 
  const HandleSubmit = ()=>{alert("hi")}
@@ -12,6 +15,9 @@ function App() {
     <Input/>
     <Form/>
     <Anchor/>
+    <Todo/>
+    <List/>
+    <Card/>
    </>
   )
 }

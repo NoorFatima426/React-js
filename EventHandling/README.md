@@ -70,10 +70,18 @@ Form submit hone pe page reload ho jaata hai
 
 React mein hum aksar yeh default behavior rokte hain taake apna custom logic chala sakein.
 
-# PART 7: Passing Arguments to Handlers
+# PART 7a: Passing Arguments to Handlers
 Kabhi kabhi tumhe handler ko extra data bhejna hota hai — jaise kis item ko delete karna hai.
 <button onClick={deleteItem(item.id)}>Delete</button> Wrong Method
  <button onClick={() => deleteItem(2)}>Delete Item 2</button>
  Arrow function () => deleteItem(1) ek naya function banata hai jo click hone pe deleteItem(1) call karega. Yeh render ke waqt call nahi hota — sirf event hone pe
 
- 
+ # Part 7b - Todo List (practice arguments) 
+ # Part 8 Event Delegation
+ Event delegation ek concept hai jahan parent element bachon (children) ki events bhi sun sakta hai, har child pe alag listener lagaye bina.
+Browser mein events bubble karti hain — child se parent ki taraf upar jaati hain.
+List.jsx
+Stop Propagation Card.jsx
+
+# PART 9: Multiple Events Ek Saath Handle Karna
+Events.jsx
