@@ -4,6 +4,10 @@ import Input from './Input'
 import Todo from './Todo'
 import List from './List'
 import Card from './Card'
+import Events from './Events'
+import MouseEvents from './MouseEvents'
+import FormsAndEvents from './FormsAndEvents'
+
 function App() {
 
  const HandleSubmit = ()=>{alert("hi")}
@@ -18,6 +22,9 @@ function App() {
     <Todo/>
     <List/>
     <Card/>
+    <Events/>
+    <MouseEvents/>
+    <FormsAndEvents/>
    </>
   )
 }

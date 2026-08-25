@@ -85,3 +85,12 @@ Stop Propagation Card.jsx
 
 # PART 9: Multiple Events Ek Saath Handle Karna
 Events.jsx
+MouseEvents.jsx
+Forms&Events.jsx
+
+# Conditional Rendering
+{error && <p style={{color: "red"}}>{error}</p>}
+JavaScript mein && operator ka rule ye hai:
+
+Agar left side falsy hai (jaise "", false, 0, null, undefined), to poora expression left side ki value return kar deta hai, aur right side evaluate hi nahi hota
+Agar left side truthy hai (koi bhi non-empty string, ya true), to poora expression right side ki value return karta hai
