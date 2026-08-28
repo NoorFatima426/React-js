@@ -116,8 +116,36 @@ FilterList.jsx
 # PART 6: Sorting Lists
 SortingList.jsx
 [...products] — spread operator se pehle copy banao, phir sort karo. Direct products.sort() original array mutate karta hai — React mein galat hai!
+# Part 7: Search List
+SearchList.jsx
 
+sari array of users kese show hori h?
+query.toLowerCase().includes(query.toLowerCase())  (.includes ki wjh se)
+const [query, setQuery] = useState('')  // query = "" (empty string)
+"".includes() Hamesha true Return Karta Hai
 
+Ye JavaScript ka ek rule hai — empty string kisi bhi string ke andar "included" mani jaati hai, chahe wo string kuch bhi ho.
+"Noor Fatima".includes("")   // true
+"Usman Siddique".includes("") // true
+"XYZ".includes("")            // true
+
+# Flow
+Start mein query = ""
+filteredUsers = users.filter(user => user.includes(""))
+Har user ke liye condition true → saare users filter mein pass ho jaate hain
+Isliye filteredUsers = poori users array (koi bhi remove nahi hota)
+Jab tum type karna shuru karoge (jaise "Noor"), tab query change hogi aur real filtering shuru hogi
+
+agr m likh deti hu useState('noor') serf norr show hoga pr usman serach krne p mjy usman show ho jye ga
+
+# Part 8: Nested List
+NestedList.jsx
+
+# PART 9: Keys — Global Unique Ya Sibling Mein?
+Class A mein Roll 1 Ali hai. Class B mein bhi Roll 1 Zara hai. Koi confusion nahi — kyunki dono alag classes mein hain!
+
+Lekin ek hi class mein do bacche ka Roll 1 nahi ho sakta — woh confusing hoga.
+Keys ka apna scope hota hai — sirf apne parent ke andar unique honi chahiye। Doosre parent ki keys se koi lena dena nahi — jaise alag classes ke roll numbers। 🎯
 
 
 
