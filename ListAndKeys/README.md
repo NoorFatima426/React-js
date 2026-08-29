@@ -145,7 +145,7 @@ NestedList.jsx
 Class A mein Roll 1 Ali hai. Class B mein bhi Roll 1 Zara hai. Koi confusion nahi — kyunki dono alag classes mein hain!
 
 Lekin ek hi class mein do bacche ka Roll 1 nahi ho sakta — woh confusing hoga.
-Keys ka apna scope hota hai — sirf apne parent ke andar unique honi chahiye। Doosre parent ki keys se koi lena dena nahi — jaise alag classes ke roll numbers। 🎯
+Keys ka apna scope hota hai — sirf apne parent ke andar unique honi chahiye। Doosre parent ki keys se koi lena dena nahi — jaise alag classes ke roll numbers। 
 
 
 
