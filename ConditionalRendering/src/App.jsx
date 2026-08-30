@@ -1,6 +1,8 @@
 import Notification from "./Notification"
 import Nullish from "./Nullish"
 import UserCard from "./UserCard"
+import Badge from "./Badge"
+import Login from "./Login"
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
     <h2>Nullish Coalescing Practice</h2>
     <Nullish/>
     <UserCard/>
+    <Badge/>
+    <Login/>
     </>
   )
 }

@@ -139,3 +139,5 @@ null/undefined check →  ??
 Complex logic        →  if/else function mein
 Kuch mat dikhao      →  return null
 
+# Task1: Login.jsx
+# Task2: Badge.jsx
